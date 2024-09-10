@@ -39,18 +39,17 @@
         &.light {
           --background-color: #FAFAFA;
           --text-color: #52525B;
-      
-          --card-background-color: transparent;
+          --card-background-color:  #E5E7EB;
           --card-border-color: rgba(24, 24, 27, 0.08);
           --card-box-shadow-1: rgba(24, 24, 27, 0.02);
           --card-box-shadow-1-y: 3px;
           --card-box-shadow-1-blur: 6px;
           --card-box-shadow-2: rgba(24, 24, 27, 0.04);
           --card-box-shadow-2-y: 2px;
-          --card-box-shadow-2-blur: 7px;
+          --card-box-shadow-2-blur: 7px;  
           --card-label-color: #18181B;
-          --card-icon-color: #18181B;
-          --card-icon-background-color: rgba(24, 24, 27, 0.04);
+          --card-icon-color:  #FFFFFF;
+          --card-icon-background-color: rgba(241, 241, 243, 0.04);
           --card-icon-border-color: rgba(24, 24, 27, 0.1);
           --card-shine-opacity: .3;
           --card-shine-gradient: conic-gradient(from 225deg at 50% 50%, rgba(16, 185, 129, 0) 0deg, #10B981 25deg, #EDFAF6 285deg, #FFFFFF 345deg, rgba(16, 185, 129, 0) 360deg);
