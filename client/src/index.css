@@ -100,7 +100,7 @@
           background-color: var(--card-background-color);
         }
       
-        .icon {
+        /* .icon {
           z-index: 2;
           position: relative;
           display: table;
@@ -127,7 +127,7 @@
             color: var(--card-icon-color);
             transition: color .25s;
           }
-        }
+        } */
       
         h4 {
           z-index: 2;

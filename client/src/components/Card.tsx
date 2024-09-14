@@ -8,12 +8,14 @@ interface CardProps {
 
 function Card({ title, text }: CardProps) {
   return (
+
     <div className="card w-full mt-36">
       <div className="flex flex-col items-center gap-12 py-36">
         <span className="icon">
           <Swords />
         </span>
         <div className="ml-4">
+
           <h4>{title}</h4>
           <p>{text}</p>
         </div>
