@@ -20,7 +20,7 @@ const CSSBattles: React.FC = () => {
   return (
     <div className={`min-h-screen ${isDarkMode ? 'bg-black text-white' : 'bg-gray-white text-gray-900'} transition-colors duration-300`}>
       {/* Unique wrapper class */}
-      <header className="absolute top-0 left-0 right-0 z-10">
+      <header className="absolute top-0 left-0 right-0 z-10 ">
         <nav className="container mx-auto px-4 py-6 flex justify-between items-center">
           <div className="flex items-center">
             <img src='/devforces.jpeg' alt='DevForces Platform Logo' className="h-10 mr-3" />
@@ -40,9 +40,11 @@ const CSSBattles: React.FC = () => {
           </div>
         </nav>
       </header>
-      
+      <div className="heading text-center pt-40 text-4xl font-bold">
+      DevForces - A Competitive Development Environment
+      </div>
       <div className="css-battles-page"> 
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-2 px-2">
+        <div className="flex justify-center gap-64  ">
           <div onClick={() => handleCardClick('/battle1')}>
             <Card title="CSS Battle 1" text="Challenge yourself with various CSS tasks and improve your styling skills." />
           </div>
