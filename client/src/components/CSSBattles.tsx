@@ -41,17 +41,17 @@ const CSSBattles: React.FC = () => {
         </nav>
       </header>
       
-      <div className="css-battles-page"> 
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-2 px-2">
-          <div onClick={() => handleCardClick('/battle1')}>
+      <div className="css-battles-page "> 
+        <div className="flex items-center  flex-col-3 space-x-6 justify-center">
+          <div className='w-1/4 ' onClick={() => handleCardClick('/battle1')}>
             <Card title="CSS Battle 1" text="Challenge yourself with various CSS tasks and improve your styling skills." />
           </div>
          
-          <div onClick={() => handleCardClick('/battle2')}>
+          <div className='w-1/4' onClick={() => handleCardClick('/battle2')}>
             <Card title="CSS Battle 2" text="Test your CSS layout skills with this exciting challenge!" />
           </div>
         
-          <div onClick={() => handleCardClick('/battle3')}>
+          <div className='w-1/4' onClick={() => handleCardClick('/battle3')}>
             <Card title="CSS Battle 3" text="Master CSS animations and transitions in this battle." />
           </div>
         </div>
