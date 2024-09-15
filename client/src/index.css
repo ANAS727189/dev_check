@@ -18,7 +18,7 @@
         --card-icon-color: #D4D4D8;
         --card-icon-background-color: rgba(255, 255, 255, 0.08);
         --card-icon-border-color: rgba(255, 255, 255, 0.12);
-        --card-shine-opacity: .1;
+        --card-shine-opacity: .3;
         --card-shine-gradient: conic-gradient(from 205deg at 50% 50%, rgba(16, 185, 129, 0) 0deg, #10B981 25deg, rgba(52, 211, 153, 0.18) 295deg, rgba(16, 185, 129, 0) 360deg);
         --card-line-color: #2A2B2C;
         --card-tile-color: rgba(16, 185, 129, 0.05);
@@ -36,7 +36,7 @@
       
         --blur-opacity: .01;
       
-        &.light {
+        /* &.light {
           --background-color: #FAFAFA;
           --text-color: #52525B;
           --card-background-color:  #E5E7EB;
@@ -49,7 +49,7 @@
           --card-box-shadow-2-blur: 7px;  
           --card-label-color: #18181B;
           --card-icon-color:  #FFFFFF;
-          --card-icon-background-color: rgba(241, 241, 243, 0.04);
+          --card-icon-background-color: rgb(241, 241, 243);
           --card-icon-border-color: rgba(24, 24, 27, 0.1);
           --card-shine-opacity: .3;
           --card-shine-gradient: conic-gradient(from 225deg at 50% 50%, rgba(16, 185, 129, 0) 0deg, #10B981 25deg, #EDFAF6 285deg, #FFFFFF 345deg, rgba(16, 185, 129, 0) 360deg);
@@ -69,7 +69,7 @@
       
           --blur-opacity: .1;
         }
-      
+       */
         &.toggle .grid * {
           transition-duration: 0s !important;
         }

@@ -43,7 +43,7 @@ const CSSBattles: React.FC = () => {
       </header>
 
 
-     <div className='pt-15'>
+     <div className='pt-20'>
      <h1 className="text-5xl font-bold text-center">DevForces | A Competitive Development Platform</h1>
       <div className="css-battles-page "> 
         <div className="flex sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 space-x-6 justify-center">
